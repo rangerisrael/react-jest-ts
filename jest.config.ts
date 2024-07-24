@@ -5,7 +5,7 @@ const config:Config.InitialOptions = {
   setupFilesAfterEnv:['<rootDir>/setup.ts'],
   moduleNameMapper:{
     '\\.(css|scss)$':'identity-obj-proxy',
-    '\\.(jpg|jpeg|webp|svg|png)$': '<rootDir>/src/__test__/file/configuration.js',
+    '\\.(jpg|jpeg|webp|svg|png)$': '<rootDir>/file.config.js',
   }
 }
 
